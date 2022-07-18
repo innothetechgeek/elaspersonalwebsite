@@ -138,7 +138,7 @@
             <h2 class="content-title">I’m Ela</h2>
             <h6 class="content-role">I am a Web Developer, online tutor and a tech nerd</h6>
             <div class="content-description">
-              <p>I’m web developer, computer geek and a tech nerd. My whole life revolves around computers, I don’t have much personal life. 
+              <p>I’m web developer, computer geek and a tech nerd. My whole life revolves around computers and I don’t have much personal life. 
                 I do 3 things for living; I eat, I code I sleep. To me living life to the fullest means
                 having unlimited internet connection, and a computer with an IDE (an IDE is a program used to build websites).
                 I spend most of my time sitting in front of a computer, learning something new or building something new. 
