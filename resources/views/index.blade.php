@@ -147,7 +147,8 @@
                 In my spare time I teach web development (the art of making websites) on udemy and skillshare. 
                 I have students from first world countries like USA, UK, Newziland and even countries that 
                 I didn’t know existed. My students love my courses and most of them give me 5 star ratings. 
-                My current courses are targeted and junior web developers who would like to take their skills to the next level. Please don’t attempt this courses if you’re beginner, you’ll be confused. 
+                My current courses are targeted and junior web developers who would like to take their skills to the next level. Please don’t attempt these courses if you’re beginner, you’ll be confused...
+                you won't understand a thing!
               </p>
               <p>
                 I’m currently recording a course on titled ‘how to make websites, and make money selling websites templates, freelancing or even selling course like me’. 
