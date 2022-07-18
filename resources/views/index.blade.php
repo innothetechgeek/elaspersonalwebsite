@@ -5,9 +5,9 @@
   <!-- Required meta tags-->
   <meta charset="utf-8">
   <!-- Title-->
-  <title>CardX - Modern Personal Portfolio / Resume / CV / vCard / HTML5 Template</title>
+  <title>Learn to make websites with Ela</title>
   <!-- Description-->
-  <meta name="description" content="Modern Personal Portfolio / Resume / CV / vCard / HTML5 Template">
+  <meta name="description" content="Learn to make website, and make passive income by selling website templates, freelancing or even selling courses">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Favicons-->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('templates/img/favicons/apple-touch-icon.png') }}">
