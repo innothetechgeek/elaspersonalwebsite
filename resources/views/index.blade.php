@@ -160,7 +160,7 @@
                   <p>Ela Eli</p>
                 </li>
                 <li class="list-inline-item single-info"><span>Email:</span>
-                  <p><a href="mailto:daniel@example.com">elathetechnerd@gmailc</a></p>
+                  <p><a href="elathetechnerd@gmail.com">elathetechnerd@gmail.com</a></p>
                 </li>
                 <li class="list-inline-item single-info"><span>Age:</span>
                   <p>28</p>
