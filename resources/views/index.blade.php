@@ -61,7 +61,7 @@
   <header>
     <!-- Navbar-->
     <nav class="navbar fixed-top" id="navbar">
-      <div class="container"><a class="navbar-brand" data-scroll="" href="#home-area"><img class="img-fluid" src="img/img-logo-dark.png" alt="CardX"></a><a class="navbar-btn" href="#overlay-block"><span class="btn-line"></span></a></div>
+      <div class="container"><a class="navbar-brand" data-scroll="" href="#home-area"><img class="img-fluid" src="{{ asset('template/img/img-logo-dark.png') }}" alt="CardX"></a><a class="navbar-btn" href="#overlay-block"><span class="btn-line"></span></a></div>
     </nav>
     <!-- Overlay block-->
     <div class="overlay-block" id="overlay-block">
@@ -139,9 +139,9 @@
             <h6 class="content-role">I am a Web Developer, online tutor and a tech nerd</h6>
             <div class="content-description">
               <p>I’m web developer, computer geek and a tech nerd. My whole life revolves around computers, I don’t have much personal life. 
-                I do 3 things for living; I eat, I code I sleep.  I spend most of my time sitting in front of a computer,
-                learning something new or building something new. To me living life to the fullest means
+                I do 3 things for living; I eat, I code I sleep. To me living life to the fullest means
                 having unlimited internet connection, and a computer with an IDE (an IDE is a program used to build websites).
+                I spend most of my time sitting in front of a computer, learning something new or building something new. 
               </p>
               <p>
                 In my spare time I teach web development (the art of making websites) on udemy and skillshare. 
@@ -589,7 +589,7 @@
             <div class="block-details"><span class="detail-from">Liquidedge pty (ltd)</span><span class="detail-date">2017 - 2020</span></div>
             <div class="block-line"></div>
             <div class="block-summary">
-              <h5 class="summary-title">Junior Web Development</h5>
+              <h5 class="summary-title">Junior Web Developer</h5>
               <p class="summary-description">Worked mostly as a php backend developer, giving life to frontend pages built by frontend developers.</p>
             </div>
           </div>
@@ -682,6 +682,7 @@
       <div class="row">
         <div class="col-12">
           <div class="section-heading">
+            <p style="margin-bottom:8px !important" class="section-description">Interested in my upcoming <strong style="color:#fff">web-development course for beginners? </strong></p>
             <h2 class="section-title">Join Waiting list</h2>
             <p class="section-description">Please make sure you submit your valid email address</p>
           </div>
@@ -690,15 +691,17 @@
       <div class="row">
         <!-- Contact form-->
         <div class="col-12 col-lg-7">
-          <form class="contact-form" id="contact-form" method="post" action="php/contact.php">
+          <form class="contact-form" id="contact-form" method="post" action="potentialstudent/store">
+            @csrf
             <h4 class="form-title">Message Me</h4>
             <div class="row">
               <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required=""></div>
               <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
               <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required=""></div>
               <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message" name="message" placeholder="Message" rows="5" required=""></textarea></div>
-              <div class="col-12 form-submit"><button class="btn button-main button-scheme" id="contact-submit" type="submit">Submit</button>
-                <p class="contact-error">Oops! Something went wrong. Please try again.</p>
+              <div class="col-12 form-submit">
+                <button class="btn button-main button-scheme" type="submit">Submit</button>
+                <p class="contact-error">Email sent successfully.</p>
               </div>
             </div>
           </form>
@@ -780,7 +783,7 @@
       </div>
       <!-- Mini footer-->
       <div class="mini-footer">
-        <p class="copyright-notice">Copyright © 2019 CardX, all rights reserved. Developed by <a href="https://themeforest.net/user/exill" target="_blank">Exill</a>.</p>
+        <p class="copyright-notice">Copyright © 2022 Ela, all rights reserved.</p>
         <div class="social-medias"><a class="twitter" href="#0"><i class="icon ion-logo-twitter"></i></a><a class="instagram" href="#0"><i class="icon ion-logo-instagram"></i></a><a class="linkedin" href="#0"><i class="icon ion-logo-linkedin"></i></a><a class="youtube" href="#0"><i class="icon ion-logo-youtube"></i></a><a class="github" href="#0"><i class="icon ion-logo-github"></i></a><a class="facebook" href="#0"><i class="icon ion-logo-facebook"></i></a><a class="dribbble" href="#0"><i class="icon ion-logo-dribbble"></i></a></div>
       </div>
     </div>

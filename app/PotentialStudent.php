@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class WaitingList extends Model
+class PotentialStudent extends Model
 {
     //
 
