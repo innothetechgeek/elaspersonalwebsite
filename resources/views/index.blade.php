@@ -104,12 +104,12 @@
 
             <p class="content-description">
 
-              This course is for absolute beginners who would like to dive into the world web-development and start making money by selling website templates,freelancing or selling courses.
+              This course is for absolute beginners who would like to dive into the world of web-development and start making money by selling website templates,freelancing or selling courses.
             
             </p>
             <p class="content-description">
 
-              If you're interested in this course, click the join waiting list button below, you'll be notified via email when I release the course.
+              If you're interested in this course click the join waiting list button below, you'll be notified via email when I release the course.
             
             </p>
             <a class="btn content-work button-main" data-scroll="" href="#portfolio-area" role="button">Watch course intro</a>
