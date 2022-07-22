@@ -28,6 +28,17 @@
   <link id="theme-scheme" rel="stylesheet" href="{{ asset('template/css/themes/main-dark.css') }}">
   <!-- Custom CSS (Add your custom CSS styles to this file)-->
   <link rel="stylesheet" href="{{ asset('template/css/custom.css') }}">
+
+  <!-- google analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3RZKY9576B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-3RZKY9576B');
+  </script>
 </head>
 
 <body class="theme-dark">
@@ -147,7 +158,7 @@
                 In my spare time I teach web development (the art of making websites) on udemy and skillshare. 
                 I have students from first world countries like USA, UK, Newziland and even countries that 
                 I didn’t know existed. My students love my courses and most of them give me 5 star ratings. 
-                My current courses are targeted and junior web developers who would like to take their skills to the next level. Please don’t attempt these courses if you’re beginner, you’ll be confused...
+                My current courses are targeted and junior web developers who would like to take their skills to the next level. Please don’t attempt these courses if you’re a beginner, you’ll be confused...
                 you won't understand a thing!
               </p>
               <p>
