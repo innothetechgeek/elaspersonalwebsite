@@ -78,6 +78,16 @@ hr {
   padding: 105px 0;
 }
 
+#about-area{
+  padding-top:45px !important;
+}
+
+.portfolio-area .lightbox-wrapper .lightbox-close .close-btn {
+
+  display: none !important;
+
+}
+
 .single-section .section-heading {
   margin-bottom: 60px;
   text-align: left;

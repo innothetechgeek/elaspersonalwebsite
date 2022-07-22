@@ -140,7 +140,7 @@
   <!-- About-->
   <section class="single-section about-area" id="about-area">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row">
         <!-- Picture part-->
         <div class="col-12 col-lg-5 about-img"><img class="img-fluid img-thumbnail" src="{{ asset('template/img/about_img.jpg') }}" alt="About Picture"></div>
         <!-- Content part-->
