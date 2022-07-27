@@ -273,6 +273,14 @@
       </div>
       <!-- Thumbnail list-->
       <div class="shufflejs row" id="shufflejs">
+         <!-- Single item-->
+        <div class="single-item col-6 col-lg-4" data-groups="[&quot;design&quot;]"><a class="portfolio-item" href="#item-1">
+            <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="{{asset('template/img/item-1.jpg') }}">
+              <div class="item-content">
+                <h6 class="content-title">Create a blog using php mysql and javascript</h6><span class="content-more">More Info</span>
+              </div>
+            </div>
+          </a></div>
         <!-- Single item-->
         <div class="single-item col-6 col-lg-4" data-groups="[&quot;design&quot;]"><a class="portfolio-item" href="#item-1">
             <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="{{asset('template/img/item-1.jpg') }}">
@@ -314,6 +322,45 @@
       <!-- Single item-->
       <div class="col-6 col-lg-4 sizer-element"></div>
         
+      </div>
+    </div>
+     <!-- Single lightbox-->
+     <div class="lightbox-wrapper" id="item-1">
+      <div class="f-basis-100">
+        <div class="lightbox-close" data-modal-close><span class="close-btn"><span class="btn-line"></span></span></div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-5">
+            <div class="lightbox-gallery owl-carousel owl-theme"><img class="img-fluid item-img" alt="Item" src="{{ asset('template/img/item-1.jpg') }}"><img class="img-fluid item-img" alt="Item" src="{{ asset('template/img/item-2.jpg') }}"><img class="img-fluid item-img" alt="Item" src="{{ asset('template/img/item-3.jpg') }}"><img class="img-fluid item-img" alt="Item" src="{{asset('template/img/item-4.jpg') }}"><img class="img-fluid item-img" alt="Item" src="{{ asset('template/img/item-5.jpg') }}"><img class="img-fluid item-img" alt="Item" src="{{ asset('template/img/item-6.jpg') }}"></div>
+          </div>
+          <div class="col-12 col-lg-7">
+            <div class="lightbox-content">
+              <h3 class="content-title">Create a blog using php mysql and javascript</h3>
+              <div class="content-description">
+                <p class="text-uppercase">Important!! This course is not for beginners. Don't attempt it if you don't know the basics of html,css,php and javascript</p>
+                <p>COURSE DESCRIPTION: n this course we'll be build a real world blog project using php, mysql and javascript. If you're new to web development, the way this course is structured shouldn't scare you. I built the course using object oriented php, and object oriented php is a standard way of coding in the web development industry. If you get a new job as a php developer, 
+                  you'll be expected to code in object oriented php, not procedural programming.</p>
+                <p>So the way I'm coding in this course shouldn't scare you way, but instead it should excite you because it's how things are done in the industry. I know object oriented programming can be a bit hard to grasp in the beginning, but you'll enjoy it along the way because it makes your coding life easy as a developer.</p>
+                <p>This is course is for programmers that are hungry for knowledge, and looking to improve their programming skills. If you constantly seeking to become a better programmer, you've come to the right place...This course is for you.</p>
+              </div>
+              <ul class="list-inline content-info">
+                <li class="list-inline-item single-info"><span>Target Audience:</span>
+                  <p>Junior developers</p>
+                </li>
+                <li class="list-inline-item single-info"><span>Categories:</span>
+                  <p><a href="#0">Branding</a>, <a href="#0">Web Design</a></p>
+                </li>
+                <li class="list-inline-item single-info"><span>Date published:</span>
+                  <p>August, 2021</p>
+                </li>
+                <li class="list-inline-item single-info"><span>Technologies:</span>
+                  <p>HTML5, CSS, JS,PHP,MYSQL</p>
+                </li>
+              </ul><a target="_blank" class="btn content-btn button-main button-scheme" href="https://www.udemy.com/course/create-a-blog-using-php-mysql-and-javascript/" role="button">Visit Course</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Single lightbox-->
