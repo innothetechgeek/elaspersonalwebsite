@@ -21,7 +21,7 @@ and open the template in the editor.
                         <tr>
                             <td valign="top">
                                 <br/><br/>
-                                <a><img style="border:none; width:550px;" src=""/></a>
+                                <!-- <a><img style="border:none; width:550px;" src=""/></a> -->
                             </td>
                         </tr>
                     </table>
@@ -56,7 +56,7 @@ and open the template in the editor.
                     <table cellpadding="0" cellspacing="0" style="width:550px;">
                         <tr>
                             <td valign="top">
-                                <a href=""><img style="border:none;width:550px;" src="{ asset('email_signature') }}"/></a>
+                                <!-- <a href=""><img style="border:none;width:550px;" src="{ asset('email_signature') }}"/></a> -->
                             </td>
                         </tr>
                     </table>
