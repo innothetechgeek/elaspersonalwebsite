@@ -39,8 +39,8 @@ class JoiningRequestRecieved extends Mailable
         return $this->view('emails.potential_students.email_recieved')
                     ->from('ela@elathetechnerd.net', "Ela - the tech nerd")
                     ->with([
-                        'userEmail' => $this->potentialStudent->name,
-                        'userName' => $this->potentialStudent->email,
+                        'userEmail' => $this->potentialStudent->email,
+                        'userName' => $this->potentialStudent->name,
                         'userMessage' => $this->potentialStudent->message,
                     ]);
     }

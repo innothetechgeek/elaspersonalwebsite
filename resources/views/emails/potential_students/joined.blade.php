@@ -47,7 +47,7 @@ and open the template in the editor.
                                       <b>Message:</b></br> {!! $userMessage !!} <br><br>
                                     <br/><br/>
                                     Kind regards, <br/>
-                                    Grindrod System
+                                    Personal Website
                                 </span>
                                 <br/><br/>
                             </td>
