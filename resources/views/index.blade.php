@@ -756,7 +756,8 @@
             <div class="row">
               <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required=""></div>
               <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
-              <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required=""></div>
+              <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required=""></div>
+              <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-phonenumber" type="text" name="phonenumber" placeholder="Phone number" required=""></div>
               <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message" name="message" placeholder="Message" rows="5" required=""></textarea></div>
               <div class="col-12 form-submit">
                 <button class="btn button-main button-scheme" type="submit">Submit</button>

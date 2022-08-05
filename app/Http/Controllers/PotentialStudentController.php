@@ -29,6 +29,7 @@ class PotentialStudentController extends Controller
     public function notifySiteOwner($potentialStudent){
 
         Mail::to('elathetechnerd@gmail.com')
+                ->from('ela@elathetechnerd.net', "Ela - the tech nerd")
                 ->send(new UserJoined($potentialStudent));
     }
 
