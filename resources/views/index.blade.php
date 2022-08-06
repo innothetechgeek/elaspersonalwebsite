@@ -151,7 +151,7 @@
          
 
 
-            <a class="btn content-work button-main video-btn"    data-toggle="modal" data-src="https://www.youtube.com/watch?v=20A7oGWWRso&t=561s&autoplay=1&loop=1" data-target="#myModal">Watch course intro</a>
+            <a class="btn content-work button-main video-btn"    data-toggle="modal" data-src="https://www.youtube.com/embed/20A7oGWWRso" data-target="#myModal">Watch course intro</a>
             <a class="btn content-hire button-main button-scheme" data-scroll="" href="#contact-area" role="button">Join waiting list</a>
           </div><a href="#about-area" data-scroll="">
             <div class="home-tip">More about me</div>
