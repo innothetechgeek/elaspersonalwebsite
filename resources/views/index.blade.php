@@ -121,18 +121,21 @@
           <div class="col-12 col-lg-7 home-content">
             <h5 class="content-greet">Hi there, my name is <b>Ela</b></h5>
 
-            <h1 class="content-skills cd-headline clip">I’m a
+            <h1 class="content-skills cd-headline clip">I’m
               <span class="cd-words-wrapper single-skill">
-                <b class="is-visible">Web Dev. Tutor</b>
-                <b>Web Developer</b>
-                <b>Tech nerd</b>
+                <b class="is-visible">an IT guru</b>
+                <b>a computer geek</b>
+                <b>a tech nerd</b>
               </span>
             </h1>
 
             <p class="content-description">
 
-              I teach web development online. Web development is the art of making websites. 
-              I’m currently recording a beginner’s course titled <strong></stro></stronf>‘how to make websites, and make money selling website templates, 
+              I teach IT stuff online, mostly web development. Web development is the art of making websites and earning
+              a living through selling website templates, freelancing or even working as a web developer without a University Degree.
+              I have students from all over the world, including first world countries like USA, UK, Canada etc. 
+              </p>
+              <p>I’m currently recording a beginner’s course titled <strong>‘how to make websites, and make money selling website templates, 
               freelancing or even selling courses like I do’</strong>.
 
             </p>
@@ -148,13 +151,11 @@
             
             </p>
 
-         
-
 
             <a class="btn content-work button-main video-btn"    data-toggle="modal" data-src="https://www.youtube.com/embed/20A7oGWWRso" data-target="#myModal">Watch course intro</a>
             <a class="btn content-hire button-main button-scheme" data-scroll="" href="#contact-area" role="button">Join waiting list</a>
           </div><a href="#about-area" data-scroll="">
-            <div class="home-tip">More about me</div>
+            <div class="home-tip" style ="bottom: 1.75%">More about me</div>
           </a>
           <div class="home-mouse">
             <div class="mouse-shape">
