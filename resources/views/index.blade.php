@@ -117,7 +117,15 @@
     <!-- Home-->
     <section class="home-area element-cover-bg" id="home-area" style="background-image:url({{url('template/img/home-dark.png') }})">
       <div class="container h-100">
-        <div class="row h-100 position-relative align-items-center">
+        <style>
+           @media screen and (min-width: 992px) {
+            .fix-padding{
+           
+              padding-top:79px;
+            }
+          }
+        </style>
+        <div class="row h-100 position-relative align-items-center fix-padding">
           <div class="col-12 col-lg-7 home-content">
             <h5 class="content-greet">Hi there, my name is <b>Ela</b></h5>
 
@@ -131,11 +139,12 @@
 
             <p class="content-description">
 
-              I teach IT stuff online, mostly web development. Web development is the art of making websites and earning
-              a living through selling website templates, freelancing or even working as a web developer without a University Degree.
-              I have students from all over the world, including first world countries like USA, UK, Canada etc. 
-              </p>
-              <p>I’m currently recording a beginner’s course titled <strong>‘how to make websites, and make money selling website templates, 
+              I teach IT stuff on <a target="blank" href="https://www.udemy.com/">Udemy</a> and <a target="blank" href="https://www.skillshare.com">skillshare</a>.  
+              I have students from all over the world, including first world countries like USA, UK, Canada etc.
+              <a target="blank" href="https://www.udemy.com/user/dan-jones-162/" >Click here</a> to checkout my udemy instructor profile and my courses.
+            </p>
+
+              <p>I’m currently recording a beginner’s course titled <strong>‘how to make websites and apps, and make money selling website templates, 
               freelancing or even selling courses like I do’</strong>.
 
             </p>
@@ -150,12 +159,12 @@
               If you're interested in this course click the join waiting list button below, you'll be notified via email when I release the course.
             
             </p>
-
+            <div></div>
 
             <a class="btn content-work button-main video-btn"    data-toggle="modal" data-src="https://www.youtube.com/embed/20A7oGWWRso" data-target="#myModal">Watch course intro</a>
             <a class="btn content-hire button-main button-scheme" data-scroll="" href="#contact-area" role="button">Join waiting list</a>
           </div><a href="#about-area" data-scroll="">
-            <div class="home-tip" style ="bottom: 1.75%">More about me</div>
+           
           </a>
           <div class="home-mouse">
             <div class="mouse-shape">
@@ -169,9 +178,16 @@
   <!-- About-->
   <section class="single-section about-area" id="about-area">
     <div class="container">
-      <div class="row">
+      <div class="row" style="position:relative">
+      <div class="col-12">
+        <span class="content-title home-tip" style ="font-size: 42px;font-weight: 700;">More about me</span>   
+      </div>
+     
         <!-- Picture part-->
-        <div class="col-12 col-lg-5 about-img"><img class="img-fluid img-thumbnail" src="{{ asset('template/img/about_img.jpg') }}" alt="About Picture"></div>
+        <div class="col-12 col-lg-5 about-img" >
+        
+          <img class="img-fluid img-thumbnail" src="{{ asset('template/img/about_img.jpg') }}" alt="About Picture">
+        </div>
         <!-- Content part-->
         <div class="col-12 col-lg-7 about-content">
           <div class="content-block">
